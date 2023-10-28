@@ -7,6 +7,7 @@ const Body = () => {
     <div className='flex flex-col'>
         <Header />
         <Bodyhead />
+        <div className="flex"></div>
     </div>
   )
 }

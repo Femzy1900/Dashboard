@@ -5,7 +5,7 @@ import Menu from './component/Menu/Menu'
 function App() {
 
   return (
-    <div className='flex'>
+    <div className='flex bg-[#efefef]'>
       <div className="flex-1">
         <Menu />
       </div>

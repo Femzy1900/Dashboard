@@ -2,6 +2,8 @@ import React from 'react'
 import Coins from "../../assets/Coins.png"
 import Image1 from "../../assets/14.png"
 import Image2 from "../../assets/15.png"
+import Image3 from "../../assets/Frame17.png"
+import Image4 from "../../assets/Frame20.png"
 
 const Finance = () => {
   return (
@@ -31,7 +33,18 @@ const Finance = () => {
         </div>
       </div>
       <div className="">
-        <h1>Enrolled Courses</h1>
+        <div className="flex text-center justify-between m-4">
+            <div className="flex flex-col">
+                <div className="">
+                    <h1 className='font-bold text-[22px]'>Enrolled Courses</h1>
+                    <h1 className='text-[#925FE2] text-[20px] font-semibold'>See all</h1>
+                </div>
+                <div className=" flex  justify-between">
+                    <img className='' src={Image3} alt="" />
+                    <img className='' src={Image4} alt="" />
+                </div>
+            </div>
+        </div>
       </div>
     </div>
   )

@@ -9,11 +9,11 @@ const Body = () => {
     <div className='flex flex-col'>
         <Header />
         <Bodyhead />
-        <div className="flex m-6">
+        <div className="flex mx-6">
             <div className="">
                 <Finance />
             </div>
-            <div className="basis-2/6">
+            <div className="basis-3/6">
                 <Courses />
             </div>
         </div>

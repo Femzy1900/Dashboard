@@ -5,7 +5,7 @@ import Scholarcap from "../../assets/Scholarcap.png"
 
 const Bodyhead = () => {
   return (
-    <div className=' relative p-4 m-6 flex rounded-2xl w-[97%] h-[260px] bg-[#925FE2]'>
+    <div className=' relative p-4 mx-6 mb-1 flex rounded-2xl w-[97%] h-[260px] bg-[#925FE2]'>
       <div className="items-center ml-5 text-white   flex flex-col">
         <p className='bg-[#925FE2] p-7'>September 4, 2023</p>
         <h1 className='bg-[#925FE2] font-bold p-7 text-[30px]'>Welcome back, John!</h1>

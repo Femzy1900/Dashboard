@@ -3,7 +3,7 @@ import Bell from '../../assets/bell-ringing.png'
 
 const Header = () => {
   return (
-    <div className=' m-6 flex basis-9/12'>
+    <div className=' mx-6 mt-6 flex basis-9/12'>
       <div className="flex items-center">
         <input className='p-1 rounded-2xl text-end shadow-xl bg-white w-[395px]' type="search" placeholder='search' name="" id="" />
       </div>
